@@ -28,7 +28,7 @@
         "Dot": "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/rategirl/dot.png"
     },
     "Xp": {
-        "Bg": "https://02image.nyc3.digitaloceanspaces.com/other/xp/bg.png"
+        "Bg": "https://codezerotwo-pictures.nyc3.digitaloceanspaces.com/other/xp/EXPboard.png"
     },
     "Rip": {
         "Bg": "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/rip/rip.png",
@@ -55,6 +55,6 @@
             "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/slots/numbers/8.png",
             "https://nadeko-pictures.nyc3.digitaloceanspaces.com/other/slots/numbers/9.png"
         ],
-        "Bg": "https://02image.nyc3.digitaloceanspaces.com/Slots.png"
+        "Bg": "https://codezerotwo-pictures.nyc3.digitaloceanspaces.com/Slots.png"
     }
 }
