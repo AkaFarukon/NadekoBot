@@ -111,7 +111,7 @@ namespace NadekoBot.Modules
                 var _ = Task.Run(() => msg.DeleteAsync());
             }
         }
-        
+
         // TypeConverter typeConverter = TypeDescriptor.GetConverter(propType); ?
         public async Task<string> GetUserInputAsync(ulong userId, ulong channelId)
         {
@@ -155,7 +155,7 @@ namespace NadekoBot.Modules
             }
         }
     }
-    
+
     public abstract class NadekoTopLevelModule<TService> : NadekoTopLevelModule where TService : INService
     {
         public TService _service { get; set; }

@@ -197,9 +197,9 @@ namespace NadekoBot.Modules.Administration.Services
 
         private async Task<string> GetNewRelease()
         {
-            var client = new GitHubClient(new ProductHeaderValue("nadekobot"));
+            var client = new GitHubClient(new ProductHeaderValue("Zero Two"));
             var lu = _bc.BotConfig.LastUpdate;
-            var release = (await client.Repository.Release.GetAll("Kwoth", "NadekoBot").ConfigureAwait(false)).FirstOrDefault();
+            var release = (await client.Repository.Release.GetAll("Aka", "Zero Two").ConfigureAwait(false)).FirstOrDefault();
 
             if (release == null || release.CreatedAt.UtcDateTime <= lu)
                 return null;
