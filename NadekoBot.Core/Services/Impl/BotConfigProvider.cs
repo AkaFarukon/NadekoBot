@@ -63,7 +63,7 @@ namespace NadekoBot.Core.Services.Impl
                         bc.CurrencyPluralName = newValue ?? bc.CurrencyName + "s";
                         break;
                     case BotConfigEditType.CurrencySign:
-                        bc.CurrencySign = newValue ?? ":Horns:";
+                        bc.CurrencySign = newValue ?? "<:Horns:496782570311122965>";
                         break;
                     case BotConfigEditType.DmHelpString:
                         bc.DMHelpString = string.IsNullOrWhiteSpace(newValue)
