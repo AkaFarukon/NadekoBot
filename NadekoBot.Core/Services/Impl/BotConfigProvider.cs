@@ -56,14 +56,14 @@ namespace NadekoBot.Core.Services.Impl
                             return false;
                         }
                         break;
-                    case BotConfigEditType.CurrencyName:
+                    case BotConfigEditType.Horn:
                         bc.CurrencyName = newValue ?? "-";
                         break;
-                    case BotConfigEditType.CurrencyPluralName:
+                    case BotConfigEditType.Horns:
                         bc.CurrencyPluralName = newValue ?? bc.CurrencyName + "s";
                         break;
                     case BotConfigEditType.CurrencySign:
-                        bc.CurrencySign = newValue ?? "-";
+                        bc.CurrencySign = newValue ?? ":Horns:";
                         break;
                     case BotConfigEditType.DmHelpString:
                         bc.DMHelpString = string.IsNullOrWhiteSpace(newValue)
