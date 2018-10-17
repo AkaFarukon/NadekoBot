@@ -59,7 +59,7 @@
         /// <summary>
         /// Emoji of your currency. You can use server emojis only if your bot is only on your own server, or 
         /// if you have nitro/partner.
-        /// Default is 🌸.
+        /// Default is :Horns:.
         /// </summary>
         CurrencySign,
         /// <summary>
