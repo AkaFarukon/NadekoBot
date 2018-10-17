@@ -21,7 +21,7 @@ namespace NadekoBot.Core.Services.Database.Models
         public string RemindMessageFormat { get; set; } = "❗⏰**I've been told to remind you to '%message%' now by %user%.**⏰❗";
 
         //currency
-        public string CurrencySign { get; set; } = "502019845865340928";
+        public string CurrencySign { get; set; } = "<:Horns:496782570311122965>";
         public string CurrencyName { get; set; } = "Horn";
         public string CurrencyPluralName { get; set; } = "Horns";
 
