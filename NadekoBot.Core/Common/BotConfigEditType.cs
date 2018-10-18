@@ -49,17 +49,17 @@
         /// "Credit" or "Dollar". You can do better :^)
         /// Default is NadekoFlower
         /// </summary>
-        Horn,
+        CurrencyName,
         /// <summary>
         /// Plural name of your currency (if you have currency name called "dollar" then put this to "dollars".
         /// I'm not sure if this is even used anywhere in the bot anymore.
         /// Default is NadekoFlowers
         /// </summary>
-        Horns,
+        CurrencyPlural,
         /// <summary>
         /// Emoji of your currency. You can use server emojis only if your bot is only on your own server, or 
         /// if you have nitro/partner.
-        /// Default is :Horn:.
+        /// Default is :CurrencyName:.
         /// </summary>
         CurrencySign,
         /// <summary>

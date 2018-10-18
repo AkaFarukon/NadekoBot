@@ -151,9 +151,9 @@ namespace NadekoBot.Migrations
 
                     b.Property<bool>("CurrencyGenerationPassword");
 
-                    b.Property<string>("Horn");
+                    b.Property<string>("CurrencyName");
 
-                    b.Property<string>("Horns");
+                    b.Property<string>("CurrencyPlural");
 
                     b.Property<string>("CurrencySign");
 

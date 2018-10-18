@@ -44,9 +44,9 @@ namespace NadekoBot.Migrations
 
                     b.Property<int>("CurrencyGenerationCooldown");
 
-                    b.Property<string>("Horn");
+                    b.Property<string>("CurrencyName");
 
-                    b.Property<string>("Horns");
+                    b.Property<string>("CurrencyPlural");
 
                     b.Property<string>("CurrencySign");
 
