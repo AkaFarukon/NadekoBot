@@ -12,8 +12,8 @@ namespace NadekoBot.Core.Services.Database.Models
         public bool ForwardMessages { get; set; } = true;
         public bool ForwardToAllOwners { get; set; } = true;
 
-        public float CurrencyGenerationChance { get; set; } = 0.02f;
-        public int CurrencyGenerationCooldown { get; set; } = 10;
+        public float CurrencyGenerationChance { get; set; } = 0.80f;
+        public int CurrencyGenerationCooldown { get; set; } = 5;
 
         public List<PlayingStatus> RotatingStatusMessages { get; set; } = new List<PlayingStatus>();
 
@@ -67,7 +67,7 @@ Zero Two Support Server: https://discord.gg/EUmkRtK";
         public HashSet<BlockedCmdOrMdl> BlockedCommands { get; set; }
         public HashSet<BlockedCmdOrMdl> BlockedModules { get; set; }
         public int PermissionVersion { get; set; } = 2;
-        public string DefaultPrefix { get; set; } = ".";
+        public string DefaultPrefix { get; set; } = "$";
         public bool CustomReactionsStartWith { get; set; } = false;
         public int XpPerMessage { get; set; } = 12;
         public int XpMinutesTimeout { get; set; } = 2;
