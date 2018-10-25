@@ -21,7 +21,7 @@ namespace NadekoBot.Core.Services.Database.Models
         public string RemindMessageFormat { get; set; } = "❗⏰**I've been told to remind you to '%message%' now by %user%.**⏰❗";
 
         //currency
-        public string CurrencySign { get; set; } = ":CurrencyPlural:";
+        public string CurrencySign { get; set; } = "CurrencyPlural";
         public string CurrencyName { get; set; } = "CurrencyName";
         public string CurrencyPluralName { get; set; } = "CurrencyPlural";
 
@@ -69,8 +69,8 @@ Zero Two Support Server: https://discord.gg/EUmkRtK";
         public int PermissionVersion { get; set; } = 2;
         public string DefaultPrefix { get; set; } = ".";
         public bool CustomReactionsStartWith { get; set; } = false;
-        public int XpPerMessage { get; set; } = 3;
-        public int XpMinutesTimeout { get; set; } = 5;
+        public int XpPerMessage { get; set; } = 12;
+        public int XpMinutesTimeout { get; set; } = 2;
         public int DivorcePriceMultiplier { get; set; } = 150;
         public float PatreonCurrencyPerCent { get; set; } = 1.0f;
         public int WaifuGiftMultiplier { get; set; } = 1;
