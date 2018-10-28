@@ -20,7 +20,7 @@ namespace NadekoBot.Modules.Help
 {
     public class Help : NadekoTopLevelModule<HelpService>
     {
-        public const string PatreonUrl = "***WIP***";
+        public const string PatreonUrl = "**WIP**";
         public const string PaypalUrl = "https://paypal.me/nikolasreed";
         private readonly IBotCredentials _creds;
         private readonly CommandService _cmds;
