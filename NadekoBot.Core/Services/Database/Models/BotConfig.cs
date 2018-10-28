@@ -21,9 +21,9 @@ namespace NadekoBot.Core.Services.Database.Models
         public string RemindMessageFormat { get; set; } = "❗⏰**I've been told to remind you to '%message%' now by %user%.**⏰❗";
 
         //currency
-        public string CurrencySign { get; set; } = "CurrencyPlural";
-        public string CurrencyName { get; set; } = "CurrencyName";
-        public string CurrencyPluralName { get; set; } = "CurrencyPlural";
+        public string CurrencySign { get; set; } = ":Horns:";
+        public string CurrencyName { get; set; } = "Horn";
+        public string CurrencyPluralName { get; set; } = "Horns";
 
         public int TriviaCurrencyReward { get; set; } = 0;
         /// <summary> UNUSED </summary>
@@ -45,7 +45,7 @@ namespace NadekoBot.Core.Services.Database.Models
         public HashSet<RaceAnimal> RaceAnimals { get; set; } = new HashSet<RaceAnimal>();
 
         public string DMHelpString { get; set; } = "Type `$h` for help.";
-        public string HelpString { get; set; } = @"To add me to your server, use this link -> <***WIP***>
+        public string HelpString { get; set; } = @"To add me to your server, use this link -> <**I am not ready to join your server! ><///**>
 You can use `{1}modules` command to see a list of all modules.
 You can use `{1}commands ModuleName` to see a list of all of the commands in that module.
 (for example `{1}commands Admin`) 
@@ -53,7 +53,7 @@ For a specific command help, use `{1}h CommandName` (for example {1}h {1}q)
 
 
 **LIST OF COMMANDS CAN BE FOUND ON THIS LINK**
-<***WIP***>
+<https://nadekobot.me/commands>
 
 
 Zero Two Support Server: https://discord.gg/EUmkRtK";
