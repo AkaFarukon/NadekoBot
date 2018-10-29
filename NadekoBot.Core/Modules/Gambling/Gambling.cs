@@ -102,7 +102,7 @@ namespace NadekoBot.Modules.Gambling
 
         [NadekoCommand, Usage, Description, Aliases]
         [OwnerOnly]
-        public async Task TimelySet(int num, int period = 24)
+        public async Task TimelySet(int num, int period = 12)
         {
             if (num < 0 || period < 0)
                 return;

@@ -35,8 +35,8 @@ namespace NadekoBot.Core.Services.Database.Models
         public float Betroll67Multiplier { get; set; } = 2;
         public float Betroll91Multiplier { get; set; } = 4;
         public float Betroll100Multiplier { get; set; } = 10;
-        public int TimelyCurrency { get; set; } = 0;
-        public int TimelyCurrencyPeriod { get; set; } = 0;
+        public int TimelyCurrency { get; set; } = 250;
+        public int TimelyCurrencyPeriod { get; set; } = 12;
         public float DailyCurrencyDecay { get; set; } = 0;
         public DateTime LastCurrencyDecay { get; set; } = DateTime.MinValue;
         public int MinWaifuPrice { get; set; } = 50;
@@ -45,7 +45,7 @@ namespace NadekoBot.Core.Services.Database.Models
         public HashSet<RaceAnimal> RaceAnimals { get; set; } = new HashSet<RaceAnimal>();
 
         public string DMHelpString { get; set; } = "Type `$h` for help.";
-        public string HelpString { get; set; } = @"To add me to your server, use this link -> <**I am not ready to join your server! ><///**>
+        public string HelpString { get; set; } = @"To add me to your server, use this link -> **I am not ready to join your server! ><///**
 You can use `{1}modules` command to see a list of all modules.
 You can use `{1}commands ModuleName` to see a list of all of the commands in that module.
 (for example `{1}commands Admin`) 
